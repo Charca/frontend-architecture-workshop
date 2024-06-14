@@ -87,10 +87,10 @@ _This section lists some of the main functional requirements of FullSnack's web 
 
 #### Ordering Food
 
-- Customers can add food items to a shopping cart.
+- Customers can add food items to a shopping cart (with or without authentication).
 - Customers can customize food items (e.g., add toppings, select portion size).
 - Customers can apply promo codes or discounts to their orders.
-- Customers can place an order from a restaurant, including multiple items per order.
+- Customers can place an order from a restaurant, including multiple items per order (only authenticated customers).
 - Customers can schedule orders for later delivery or pickup.
 
 #### Payment
@@ -98,7 +98,7 @@ _This section lists some of the main functional requirements of FullSnack's web 
 - Customers can choose from multiple payment methods (e.g., credit/debit cards, digital wallets).
 - Customers can save payment information for future orders.
 - Customers can view an order summary and total cost before confirming the order.
-- Customers can receive a digital receipt after placing an order.
+- Customers can receive an email confimation with a digital receipt after placing an order.
 
 #### Order Tracking
 
