@@ -64,33 +64,55 @@ You can find detailed UI Designs in this Figma file.
 
 _This section lists some of the main functional requirements of FullSnack's web app. This is more of a functionality overview to help guide some of your architectural decisions._
 
+#### Authentication
+
 - Customers can browse the app without being authenticated.
-- Customers can search restaurants by name and type of food.
-- Customers can create an account and authenticate at any point.
-- Authenticated customers can add restaurants and food items to their favorites.
-- Authenticated customers can add food items to a shopping cart.
-- Customers can order food from a restaurant, including multiple items per order.
+- Customers can create an account using email, phone number, or social media accounts.
+- Customers can authenticate using their created account credentials.
+- Authenticated customers can update their profile information.
+- Authenticated customers can reset their passwords if forgotten.
+
+#### Browsing and Searching
+
+- Customers can browse restaurants and food items without authentication.
+- Customers can search for restaurants by name.
+- Customers can search for restaurants by type of food.
+- Customers can filter search results by various criteria (e.g., ratings, delivery time, distance).
+
+#### Favorites and Recommendations
+
+- Authenticated customers can add restaurants to their favorites.
+- Authenticated customers can add food items to their favorites.
+- The app can provide personalized restaurant and food item recommendations based on customer preferences and order history.
+
+#### Ordering Food
+
+- Customers can add food items to a shopping cart.
+- Customers can customize food items (e.g., add toppings, select portion size).
+- Customers can apply promo codes or discounts to their orders.
+- Customers can place an order from a restaurant, including multiple items per order.
+- Customers can schedule orders for later delivery or pickup.
+
+#### Payment
+
+- Customers can choose from multiple payment methods (e.g., credit/debit cards, digital wallets).
+- Customers can save payment information for future orders.
+- Customers can view an order summary and total cost before confirming the order.
+- Customers can receive a digital receipt after placing an order.
+
+#### Order Tracking
+
 - After placing an order, customers can see a real-time tracker of their order status.
-- Once an order is out for delivery, customers can see a real-time map showing where the driver is currently at.
+- Customers receive notifications about their order status (e.g., order confirmed, food being prepared, out for delivery).
+- Once an order is out for delivery, customers can see a real-time map showing the driver's current location.
+- Customers can contact the delivery driver or the restaurant in case of issues.
 
-### Constraints
+#### Ratings and Reviews
 
-- Backend is already developed
-- Must be responsive and fully functional on mobile devices
-- Performance is very important
-- A functional version must be shipped in 4 months
+- Customers can rate and review restaurants and food items after receiving their orders.
+- Customers can view ratings and reviews from other users.
+- Customers can receive a notification if a restaurant responds to one of their reviews.
 
-### Quality Attributes
+### Architectural Requirements
 
-- UX and Performance is really important. There's a lot of competition out there, so if the app is slow, or the UX is confusing, people will go to a competitor.
-
-As an incentive, FullSnack is offering various promotions and discounts to get customers to use the app instead of a competitor's.
-
-### Team Composition
-
-The FullSnack Frontend Team consists of:
-
-- 3 frontend engineers - they have experience with React and Tailwind
-- 2 senior frontend engineers - they have experience with React, Tailwind, Svelte, and TypeScript
-- 1 senior full-stack engineer
-- You ()
+👉🏽 Check out the [requirements doc](requirements.md).
