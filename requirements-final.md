@@ -36,12 +36,14 @@ For more information, check out the [Project Spec](./spec.md).
 - Customers can browse the app without being authenticated.
 - Customers can add food items to a shopping cart (with or without authentication).
   - We won't be able to assume a logged in customer at all times, so we might need to come up with the concept of a "visitor" customer to keep track of their actions (like adding items to the shopping cart).
+  - Follow-up question: Do we need to persist the contents of the shopping card for authenticated users?
 - Customers can search for restaurants by name.
 - Customers can search for restaurants by type of food.
   - Does search has an auto-complete UI? If so, do we have an API endpoint for the auto-complete feature?
 - After placing an order, customers can see a real-time tracker of their order status.
 - Once an order is out for delivery, customers can see a real-time map showing the driver's current location.
   - We'll need to connect to the web sockets server to show the real-time tracker and map.
+  - Follow-up question: Are there any other features that need real-time functionality?
 - Customers can view ratings and reviews from other users.
   - Fetching reviews should not block the rendering of the restaurant page.
 
