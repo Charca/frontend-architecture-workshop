@@ -56,9 +56,11 @@ _This section describes the customer-facing application in more detail. It's mea
 
 ### UI Designs
 
-You can find detailed UI Designs in this Figma file.
+👉🏽 Check out the [Figma spec](https://www.figma.com/design/cKot2kO0cg2PpR3QwgppXm/FullSnack-Spec?node-id=0-1&t=gBOwglj8jVc5t9JR-1).
 
-// SCREENSHOT
+_Note: This is not an **actual** UI spec—it's just screenshots from Uber Eats with a different logo. We'll refer to the spec in a few modules, but it's provided mainly for illustration purposes. UI copyright belongs to Uber Eats._
+
+![Screenshot of Figma Spec](./FigmaUI.png)
 
 ### Functional Requirements
 
