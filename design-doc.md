@@ -120,6 +120,6 @@ We're going to build the Customer Web Application as a monolothic server-side re
 ### References
 
 - [Figma UI Designs](https://www.figma.com/design/cKot2kO0cg2PpR3QwgppXm/FullSnack-Spec?node-id=0-1&t=gBOwglj8jVc5t9JR-1)
-- [Architectural Requirements Document](requirements.md)
-- [Domain Model](./domain-model.md)
+- [Architectural Requirements Document](requirements-final.md)
+- [Domain Model](./domain-model-final.md)
 - [ADR1: Using Next.js](./adr.md)
