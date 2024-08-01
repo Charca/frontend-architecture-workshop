@@ -97,8 +97,8 @@ We're going to build the Customer Web Application as a monolothic server-side re
 
 ### Phase 4: Testing and Deployment (November 2024)
 
-- Perform comprehensive testing (unit, integration, and end-to-end tests).
-- Optimize for performance and accessibility.
+- Perform comprehensive end-to-end testing (manual and automated.)
+- Deploy to staging environment.
 - Deploy to production and monitor for issues.
 
 ## 7. Risks and Open Questions
