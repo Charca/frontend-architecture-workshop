@@ -84,4 +84,4 @@
 
 ## Class Diagram
 
-![Class Diagram](./Class%20Diagram.png)
+![Class Diagram](../assets/class-diagram.png)

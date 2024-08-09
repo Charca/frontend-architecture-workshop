@@ -12,7 +12,7 @@ FullSnack's current MVP web application has limitations that prevent it from sca
 
 The new customer web application is part of the **FullSnack System**, which is the software system that allows customers to make and track orders, resturants to manage orders, and drivers to collect and deliver orders.
 
-![System Context Diagram](./System%20Context%20Diagram.png)
+![System Context Diagram](../assets/system-context-diagram.png)
 
 ## 3. Goals and Non-Goals
 
@@ -35,7 +35,7 @@ We're going to build the Customer Web Application as a monolothic server-side re
 
 ### Container Diagram
 
-![Container Diagram](./container-diagram.png)
+![Container Diagram](../assets/container-diagram.png)
 
 ### Architectural Style
 
@@ -120,6 +120,6 @@ We're going to build the Customer Web Application as a monolothic server-side re
 ### References
 
 - [Figma UI Designs](https://www.figma.com/design/cKot2kO0cg2PpR3QwgppXm/FullSnack-Spec?node-id=0-1&t=gBOwglj8jVc5t9JR-1)
-- [Architectural Requirements Document](requirements-final.md)
-- [Domain Model](./domain-model-final.md)
+- [Architectural Requirements Document](../exercise-solutions/requirements-final.md)
+- [Domain Model](../exercise-solutions/domain-model-final.md)
 - [ADR1: Using Next.js](./adr.md)

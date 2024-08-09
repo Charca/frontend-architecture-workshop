@@ -1,6 +1,6 @@
 # Project Spec
 
-![Cover](./Cover.png)
+![Cover](../assets/cover.png)
 
 ## 0. Project Overview
 
@@ -31,7 +31,7 @@ _This is a zoomed out view of the FullSnack system and the context around it. Th
 
 #### System Context Diagram
 
-![System Context Diagram](./System%20Context%20Diagram.png)
+![System Context Diagram](../assets/system-context-diagram.png)
 
 ### System Containers
 
@@ -60,7 +60,7 @@ _This section describes the customer-facing application in more detail. It's mea
 
 _Note: This is not an **actual** UI spec—it's just screenshots from Uber Eats with a different logo. We'll refer to the spec in a few modules, but it's provided mainly for illustration purposes. UI copyright belongs to Uber Eats._
 
-![Screenshot of Figma Spec](./FigmaUI.png)
+![Screenshot of Figma Spec](../assets/figma-ui.png)
 
 ### Functional Requirements
 

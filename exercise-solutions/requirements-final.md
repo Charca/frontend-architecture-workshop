@@ -2,7 +2,7 @@
 
 This is a living document with the architectural requirements of FullSnack's new customer-facing web application.
 
-For more information, check out the [Project Spec](./spec.md).
+For more information, check out the [Project Spec](./project-spec.md).
 
 ## Business Goals
 
