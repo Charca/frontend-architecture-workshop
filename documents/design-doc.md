@@ -75,7 +75,7 @@ We're going to build the Customer Web Application as a monolothic server-side re
 
 1. **Single Page Application (SPA) with React**: While a client-side rendered SPA provides a smooth user experience, it lacks the page load performance and scalability benefits of server-side rendering offered by Next.js.
 2. **Vue.js**: Although some team members are familiar with Vue.js, the majority have experience with React and Next.js, making it a more suitable choice.
-3. **Remix**: Remix was another good candidate, but noone on the team was familiar with it and the unknown unknowns posed a bigger risk than using Next.js given the tight deadline.
+3. **Remix**: Remix was another good candidate, but no one on the team was familiar with it and the unknown unknowns posed a bigger risk than using Next.js given the tight deadline.
 
 ## 6. Timeline
 
