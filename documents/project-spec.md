@@ -100,7 +100,7 @@ _This section lists some of the main functional requirements of FullSnack's web 
 - Customers can choose from multiple payment methods (e.g., credit/debit cards, digital wallets).
 - Customers can save payment information for future orders.
 - Customers can view an order summary and total cost before confirming the order.
-- Customers can receive an email confimation with a digital receipt after placing an order.
+- Customers can receive an email confirmation with a digital receipt after placing an order.
 
 #### Order Tracking
 
